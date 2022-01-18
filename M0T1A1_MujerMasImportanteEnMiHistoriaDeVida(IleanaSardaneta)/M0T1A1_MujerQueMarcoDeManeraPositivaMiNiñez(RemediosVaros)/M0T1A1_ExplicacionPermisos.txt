@@ -1,0 +1,24 @@
+CHMOD
+
+
+Los permisos pueden especificarse de varias formas. 
+          A continuación se cita uno de los métodos más sencillos:
+          1. Usar una o más letras para indicar los usuarios implicados:u (para el usuario)
+          2. g (para el grupo)
+          3. o (para otros)
+          4. a (all; para todas las categorías anteriores)
+          5. Indicar si los permisos se van a agregar (+) o eliminar (-).
+          6. Utilizar una o más letras para indicar los permisos:
+          r (read; de lectura)w (write; de escritura)x (execute; de ejecución)
+   
+Permisos
+4 equivale a lectura
+2 a escritura
+1 a ejecución
+
+Haciendo combinaciones entre estos, podemos otorgar los permisos que se requieran. Por ejemplo: Si queremos otorgar lectura y escritura sumamos 4 + 2 = 6
+
+Si se quiere otorgar ejecución y escritura se suma 1 + 2 = 3 y así sucesivamente. Es importante indicar 3 números en el argumento de permisos, los cuales
+corresponden a :
+
+Ejemplo: chmod 777 nombre_archivo

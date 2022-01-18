@@ -1,0 +1,22 @@
+CHMOD
+
+El comando chmod funciona a la hora de establecer permisos y propietarios. Esta es la herramienta que se dispone para gestionar a los propietarios de un archivo o directorio.Nos permite establecer tanto el usuario como el grupo propietario.
+ Además, podremos hacerlo tanto por el nombre del usuario, como por el identificador del usuario.
+
+
+Existen diferentes opciones a utilizar con chmod, como por ejemplo,
+chmod -R el cambio de usuario y/o propietario, lo hace de modo recursivo. 
+Es decir, lo aplica tanto a directorio como a sus subdirectorios.
+
+Los permisos pueden especificarse de varias formas. 
+          A continuación se cita uno de los métodos más sencillos:
+          1. Usar una o más letras para indicar los usuarios implicados:u (para el usuario)
+          2. g (para el grupo)
+          3. o (para otros)
+          4. a (all; para todas las categorías anteriores)
+          5. Indicar si los permisos se van a agregar (+) o eliminar (-).
+          6. Utilizar una o más letras para indicar los permisos:
+          r (read; de lectura)w (write; de escritura)x (execute; de ejecución)
+   
+
+
